@@ -1,0 +1,94 @@
+body {
+    overflow: hidden;
+    font-size: large;
+}
+img {
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.box {
+    border: 1px;
+    position: relative;
+    top : -900px;
+    left: 400px;
+    background-color: rgb(255,255, 255 ,0.6);
+    width: 50vw;
+    height: 30vh;
+    padding: 70px;
+    margin: 70px;
+    
+  }
+.par {
+    text-align: center;
+    margin-top: -50px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  .button-bg{
+    
+    position: relative;
+    left: 270px;
+    top: 90px;
+    margin-top: -50px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: rgb(116, 116, 238);
+ 
+   
+  }
+  
+
+
+  
+  .myform{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background-color: rgb(255,255, 255 ,0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      opacity:0;
+      
+      
+      
+    
+    
+  }
+  .bg-active{
+    visibility: visible;
+    opacity: 1;
+}
+  
+  
+  
+  
+  .aya {
+    background-color: rgb(255,255,255,0.8);
+    width: 30%;
+    height: 30%;
+    padding: 70px;
+    margin: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+  } 
+ 
+  .mybutton {
+
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: gray;
+
+  }
+  
+ 
